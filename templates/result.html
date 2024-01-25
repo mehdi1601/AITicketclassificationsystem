@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url('templates/images/background.png'); /* Adding background image */
+            background-size: cover; /* Ensure it covers the whole page */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            color: #333; /* Set text color for better readability */
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px; /* Add some spacing at the top */
+        }
+
+        p, a {
+            text-align: center;
+            display: block;
+            margin: 20px 0; /* Spacing for paragraph and link */
+        }
+
+        a {
+            color: #007BFF; /* Link color */
+            text-decoration: none; /* Remove underline from link */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover for better user experience */
+        }
+    </style>
+</head>
+<body>
+<h1>Classification Result</h1>
+<p>Category: {{ category }}</p>
+<a href="/">Classify another ticket</a>
+</body>
+</html>
